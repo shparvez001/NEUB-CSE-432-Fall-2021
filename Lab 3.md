@@ -163,21 +163,21 @@ end
 	Subjects and credits will be stored in an array. Subjects and credits will be the ones that you have in this semester.
 
 
-Sample input
-````
-Number of students =1
-Name of  Studnet 1: XYZ
-Marks in Bangla for XYZ: 75
-Marks in English for XYZ: 65
-Marks in Maths for XYZ: 55
+	Sample input
+	````
+	Number of students =1
+	Name of  Studnet 1: XYZ
+	Marks in Bangla for XYZ: 75
+	Marks in English for XYZ: 65
+	Marks in Maths for XYZ: 55
+	```
+	Sample Output 
+	````
+	Students name: XYZ
+	   Subject    Credit      Mark     Grade     Gradepoint
+		Bangla         3        75         A           3.75
+	   English         3        65        B+           3.25
+		 Maths         5        55        B-           2.75
 
-Sample Output 
-
-Students name: XYZ
-   Subject    Credit      Mark     Grade     Gradepoint
-    Bangla         3        75         A           3.75
-   English         3        65        B+           3.25
-     Maths         5        55        B-           2.75
-
-CGPA is 3.15909
-````
+	CGPA is 3.15909
+	````
