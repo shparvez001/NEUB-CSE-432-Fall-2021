@@ -170,7 +170,7 @@ end
 	Marks in Bangla for XYZ: 75
 	Marks in English for XYZ: 65
 	Marks in Maths for XYZ: 55
-	```
+	````
 	Sample Output 
 	````
 	Students name: XYZ
