@@ -157,14 +157,14 @@ end
 
 ## Tasks to be done by students
 1. Create a Matlab Script to find CGPA of n students, where n will be taken as input. Then take the name of student and marks obtained in individual subjects.
+	
 	Finally show the students result in a table and print the students CGPA.
-
-
+	
 	Subjects and credits will be stored in an array. Subjects and credits will be the ones that you have in this semester.
 
 
-
 Sample input
+````
 Number of students =1
 Name of  Studnet 1: XYZ
 Marks in Bangla for XYZ: 75
@@ -180,3 +180,4 @@ Students name: XYZ
      Maths         5        55        B-           2.75
 
 CGPA is 3.15909
+````
