@@ -1,5 +1,5 @@
 # NEUB CSE 432 Fall 2021
-Find all Codes at  [Lab 2](https://github.com/shparvez001/NEUB-CSE-432-Fall-2021/tree/main/Lab%203).
+Find all Codes at  [Lab 3](https://github.com/shparvez001/NEUB-CSE-432-Fall-2021/tree/main/Lab%203).
 ## Task 1
 Plotting a Sine Graph
 ```matlab
@@ -176,7 +176,7 @@ end
 	Students name: XYZ
 	   Subject    Credit      Mark     Grade     Gradepoint
 		Bangla         3        75         A           3.75
-	   English         3        65        B+           3.25
+		English         3        65        B+           3.25
 		 Maths         5        55        B-           2.75
 
 	CGPA is 3.15909
