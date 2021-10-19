@@ -157,10 +157,10 @@ end
 
 ## Tasks to be done by students
 1. Create a Matlab Script to find CGPA of n students, where n will be taken as input. Then take the name of student and marks obtained in individual subjects.
-Finally show the students result in a table and print the students CGPA.
+	Finally show the students result in a table and print the students CGPA.
 
 
-Subjects and credits will be stored in an array. Subjects and credits will be the ones that you have in this semester.
+	Subjects and credits will be stored in an array. Subjects and credits will be the ones that you have in this semester.
 
 
 
