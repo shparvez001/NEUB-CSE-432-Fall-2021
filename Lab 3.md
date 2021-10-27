@@ -1,4 +1,4 @@
-# NEUB CSE 432 Fall 2021
+# NEUB CSE 432 Fall 2021 Lab 3
 Find all Codes at  [Lab 3](https://github.com/shparvez001/NEUB-CSE-432-Fall-2021/tree/main/Lab%203).
 ## Task 1
 Plotting a Sine Graph

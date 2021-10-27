@@ -1,4 +1,4 @@
-# NEUB CSE 432 Fall 2021
+# NEUB CSE 432 Fall 2021 Lab 2
 Find all Codes at  [Lab 2](https://github.com/shparvez001/NEUB-CSE-432-Fall-2021/tree/main/Lab%202).
 ## Task 1
 Introduction to MATLAB syntax
