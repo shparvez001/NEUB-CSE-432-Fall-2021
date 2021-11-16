@@ -1,5 +1,17 @@
 # NEUB CSE 432 Fall 2021 Lab 6
 Find all Codes at  [Lab 6](https://github.com/shparvez001/NEUB-CSE-432-Fall-2021/tree/main/Lab%206).
+## Pre-Lab
+To run some of the codes in this lab, symblic algebra package is necessary. To install symblic algebra package run the following line in command window.
+```matlab
+pkg install -forge symbolic 
+```
+This could take some time.
+
+After successfull installation, to load the package, run the following line of code before using the package
+```matlab
+pkg load symbolic
+```
+
 ## Task 1
 Introduction to symbolic algebra in Octave
 ```matlab
