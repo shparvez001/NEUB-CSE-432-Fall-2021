@@ -62,7 +62,7 @@ plot(f, y_fft)
 ### Creating and playing different into MATLAB
 The table below shows the frequency for different notes.
 
-![Frequency of Notes](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/notes.png)
+![Frequency of Notes](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/notes.png){align=center}
 
 As an example
 ```matlab
@@ -103,7 +103,7 @@ Plot this signal on a new figure, change the x axis limits until you see approx.
 ### Creating and playing a chirp note into MATLAB
 A chirp is also called a linear frequency modulated (LFM) signal and occurs when the frequency of a sinusoid is increased or decreased linearly over time. Chirp signals are useful in signal processing when examining the effects systems have on a varying range of frequencies or how a system responds to a wide bandwidth signal. A chirp can be mathematically produced by the following formula:
 
-![Equation 1](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/e1.png)
+![Equation 1](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/e1.png){align=center}
 
 Where f0 is the initial starting frequency of the chirp and µ is a term (sometimes called the modulation index) which determines the rate of frequency change over time ( µ can be positive or negative depending on whether the chirp increases or decreases in frequency over time).
 Chirps are also a variant on a type of modulation called Frequency Modulation (FM) which again is a technique commonly used in radio communications. Using the 2 second time vector created in task 1 create a chirp waveform by using equation above. Set the initial frequency to 440 Hz and make sure the final frequency is double this (880 Hz). 
@@ -132,7 +132,7 @@ title('Creating a Chirp Signal');
 ```
 Change µ and the initial frequency to create chirps that start and end at the following frequencies:
 
-![Table 1](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/t1.png)
+![Table 1](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/t1.png){align=center}
 
 ## Task 5.2
 Visualize frequency spectrum all the signal generated.
@@ -140,12 +140,25 @@ Visualize frequency spectrum all the signal generated.
 ## Task 6
 ### The spectrogram
 Use the MATLAB function `spectrogram()` to create spectrograms of the chirp signals generated in the last task. Set window and nfft to 1024, leave noverlap blank ([]) to give a 50% overlap between windows. Make sure the colorbar is active on the figure (type in colorbar or select Insertcolorbar on the figure window).
+```matlab
+%To be done by students
+```
 
 
 ## Task 7
-Write a code to find the cross correlation of 2 signals without using any built-in functions.
+Creating the first AM signal
+Create a new MATLAB file and set up time and frequency vectors for a signal that will be 3 seconds long.
+The first signal to be created is a sinusoid, amplitude modulated with a decaying exponential envelope. E.g.
+
+![Equation 2](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/e2.png){align=center}
+
+To do this start by creating the sinusoid with frequency fm = 350 Hz
+Now multiply this sinusoid with the exponential envelope I0e-t /τ , set τ = 1 and I0 = 3 to start with.
+Plot this initial signal.
+Use soundsc() to also listen to the amplitude modulated signal.
+
 ```matlab
-%TO be done by students
+%To be done by students
 ```
 
 ## Tasks to be done by students
