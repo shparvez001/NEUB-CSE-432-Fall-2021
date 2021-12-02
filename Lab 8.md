@@ -62,7 +62,7 @@ plot(f, y_fft)
 ### Creating and playing different into MATLAB
 The table below shows the frequency for different notes.
 
-![Frequency of Notes](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/notes.png){align=center}
+![Frequency of Notes](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/notes.png)
 
 As an example
 ```matlab
@@ -103,7 +103,7 @@ Plot this signal on a new figure, change the x axis limits until you see approx.
 ### Creating and playing a chirp note into MATLAB
 A chirp is also called a linear frequency modulated (LFM) signal and occurs when the frequency of a sinusoid is increased or decreased linearly over time. Chirp signals are useful in signal processing when examining the effects systems have on a varying range of frequencies or how a system responds to a wide bandwidth signal. A chirp can be mathematically produced by the following formula:
 
-![Equation 1](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/e1.png){align=center}
+![Equation 1](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/e1.png)
 
 Where f0 is the initial starting frequency of the chirp and µ is a term (sometimes called the modulation index) which determines the rate of frequency change over time ( µ can be positive or negative depending on whether the chirp increases or decreases in frequency over time).
 Chirps are also a variant on a type of modulation called Frequency Modulation (FM) which again is a technique commonly used in radio communications. Using the 2 second time vector created in task 1 create a chirp waveform by using equation above. Set the initial frequency to 440 Hz and make sure the final frequency is double this (880 Hz). 
@@ -132,7 +132,7 @@ title('Creating a Chirp Signal');
 ```
 Change µ and the initial frequency to create chirps that start and end at the following frequencies:
 
-![Table 1](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/t1.png){align=center}
+![Table 1](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/t1.png)
 
 ## Task 5.2
 Visualize frequency spectrum all the signal generated.
@@ -146,11 +146,11 @@ Use the MATLAB function `spectrogram()` to create spectrograms of the chirp sign
 
 
 ## Task 7
-Creating the first AM signal
+### Creating the first AM signal
 Create a new MATLAB file and set up time and frequency vectors for a signal that will be 3 seconds long.
 The first signal to be created is a sinusoid, amplitude modulated with a decaying exponential envelope. E.g.
 
-![Equation 2](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/e2.png){align=center}
+![Equation 2](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/e2.png)
 
 To do this start by creating the sinusoid with frequency fm = 350 Hz
 Now multiply this sinusoid with the exponential envelope I0e-t /τ , set τ = 1 and I0 = 3 to start with.
@@ -161,5 +161,40 @@ Use soundsc() to also listen to the amplitude modulated signal.
 %To be done by students
 ```
 
-## Tasks to be done by students
-1. Task 7: Write a code to find the cross correlation of 2 signals without using any built-in functions.
+
+## Task 8
+### Frequency modulated signal
+We next want to use this signal to frequency modulate another sinusoidal signal:
+
+![Equation 3](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/e3.png)
+
+We have `x(t)` from the previous task so now use MATLAB to generate this new frequency modulated signal by setting `fc= 250 Hz` and including the added `x(t)` component.
+Plot this new waveform and use soundsc() to listen to it as well. This is now sounding a lot like a bell, but it’s not perfect yet.
+
+
+```matlab
+%To be done by students
+```
+
+
+## Task 9
+### Application of final envelope 
+Finally we need to apply the final envelope to the bell sound, this envelope is identical to the envelope generated originally in task 7:
+
+![Equation 4](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/e4.png)
+
+Multiply `y(t)` with this envelope and use `soundsc()` to listen to the final bell sound.  Plot this final waveform
+
+```matlab
+%To be done by students
+```
+
+
+
+## Home Task for lab report
+1. Use some of the parameters in Table below to change the sound of the bell.
+![Table 2](https://raw.githubusercontent.com/shparvez001/NEUB-CSE-432-Fall-2021/main/Lab%208/img/t2.png)
+
+## Report
+For the lab report add all the codes and plots of class tasks and home tasks. 
+Since there are many figures, printed copy is mandatory and copying from others will be heavily penalized.
