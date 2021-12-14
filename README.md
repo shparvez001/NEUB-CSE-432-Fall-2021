@@ -8,3 +8,6 @@ CSE 432 class notebook
 5. [Lab 5](https://github.com/shparvez001/NEUB-CSE-432-Fall-2021/tree/main/Lab%205.md).
 6. [Lab 6](https://github.com/shparvez001/NEUB-CSE-432-Fall-2021/tree/main/Lab%206.md).
 7. [Lab 7](https://github.com/shparvez001/NEUB-CSE-432-Fall-2021/tree/main/Lab%207.md).
+8. [Lab 8](https://github.com/shparvez001/NEUB-CSE-432-Fall-2021/tree/main/Lab%208.md).
+9. [Lab 9](https://github.com/shparvez001/NEUB-CSE-432-Fall-2021/tree/main/Lab%209.md).
+10. [Lab 10](https://github.com/shparvez001/NEUB-CSE-432-Fall-2021/tree/main/Lab%2010.md).
